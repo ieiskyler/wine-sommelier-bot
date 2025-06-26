@@ -50,12 +50,11 @@ chatbot-project/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd chatbot-project
+   git clone 'https://github.com/ieiskyler/wine-sommelier-bot'
+   cd wine-sommelier-bot
    ```
 2. **Backend setup**
    ```bash
-   cd backend
    pip install -r ../requirements.txt
    ```
 3. **Frontend setup**
@@ -69,7 +68,7 @@ chatbot-project/
 1. **Start the backend**
    ```bash
    cd backend
-   uvicorn app:app --reload --host 0.0.0.0 --port 8000
+   uvicorn app:app --reload 
    ```
 2. **Start the frontend**
    ```bash
